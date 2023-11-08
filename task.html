@@ -1,21 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h3>Решение алгоритмической задачки</h3>
-    <p> Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R. Определить, можно ли заполнить жидкостью
-        объёма M первую ёмкость, вторую, обе.</p>
-    <p>a = <span id="a">10000</span>; // Ребро кубической ёмкости </p>
-      <p>h = <span id ='h'>9.7</span> ; // высота цилиндлрической ёмкости</p> 
-     <p>r = <span id="r">6.4 </span>; // радиус основания цилиндлрической ёмкости </p> 
-     <p>m = <span id="m">10000 </span>; // объём жидкости </p> 
-     <p id="verify">Решить</p>
-     <p>Ответ: <span id = 'answer'> Не определен </span> </p>
-     </body>
 
-<script src="./js/task.js" > </script>
+    <head>
+        <meta charset="UTF-8">
+        <title>Макет страницы</title>
+    </head>
+
+    <body>
+        
+        <table width="1300px" cellspacing='1' cellpadding="5" border='1' align="center">
+
+            <tbody>
+                <tr>
+                    <td> Это хедер</td>
+                </tr>
+
+                <tr>
+                    <td> Навигация
+                        <a href="dom_js.html">  Dom_JS Считываем информацию из DOM</a>
+                    <br>
+                    <a href="./00.html"> Изменяем кириллицу на латиницу по клику</a>
+                    <br>
+                    <a href="task.html"> Алгоритмическая задача</a>
+                    <br>
+                    <a href="task js form.html"> Форма для алгоритмической задачи</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <!--Этот блок для уникального содержания-->
+                        <h3 align="center"> Решение алгоритмической задачи </h3>
+                        <p> 
+                            <p> Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R. Определить, можно ли заполнить жидкостью
+                                объёма M первую ёмкость, вторую, обе.</p>
+                            <p>a = <span id="a">10</span>; // Ребро кубической ёмкости </p>
+                              <p>h = <span id ='h'>9.7</span> ; // высота цилиндлрической ёмкости</p> 
+                             <p>r = <span id="r">6.4 </span>; // радиус основания цилиндлрической ёмкости </p> 
+                             <p>m = <span id="m">10000 </span>; // объём жидкости </p> 
+                             <p id="verify">Решить</p>
+                             <p>Ответ: <span id = 'answer'> Не определен </span> </p>
+                             </body>
+                        
+                        <script src="./js/task.js"> </script>
+                        </html> </p>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </body>
+
 </html>
