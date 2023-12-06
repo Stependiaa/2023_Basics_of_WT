@@ -21,7 +21,7 @@
     "vendor_code": "333",
     "description": "Описание 3",
     "price": 300,
-    "img": "./images/Торт.jpg"
+    "img": "./images/Торт.jpeg"
   },
   {
     "id": "4",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "Описание 8",
     "price": 800,
-    "img": "./Кресло.jpg"
+    "img": "./ Кресло.jpg"
   },
   {
     "id": "9",
