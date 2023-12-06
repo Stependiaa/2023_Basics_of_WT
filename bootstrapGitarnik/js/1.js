@@ -1,5 +1,5 @@
 async function getResponce() {
-    let responce = await fetch("./shop.json")
+    let responce = await fetch("https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/data/shop.json")
     let content = await responce.text()
     console.log(content)
     content = JSON.parse(content)
