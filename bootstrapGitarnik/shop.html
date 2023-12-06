@@ -37,11 +37,18 @@
             </ul>
         </div>
        <!--начало уникального содержания страницы-->
-        <div class="card-body">
+         <div class="card-body">
             <h5 class='card-title text-center'>Магазин</h5>
             <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
                 <input name="q" type="hidden" value="search">
                 <ul class="d-flex flex-row flex-wrap justify-content-around bg-light" id="node_for_insert">
+                    <p style="color: #FFFFFF;">Фамилия: <input type="Text" name="last_name" size=20 value="Петров">
+                    </p>
+                    <p style="color: #FFFFFF;">Имя: <input type="Text" name="name" size=20 value="Иван"></p>
+                    <p style="color: #FFFFFF;">Есть пропуск в Вышку?:
+                        <input type="Radio" name="student" value="Yes" style="color: #FFFFFF;">Да
+                        <input type="Radio" name="student" value="No" style="color: #FFFFFF;" checked>Нет
+                    </p>
                 <!--начало генерируемого фрагмента кода -->
                 </ul>
                 <input class="btn btn-primary" type="Submit" value="В корзину">
