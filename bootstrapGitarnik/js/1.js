@@ -3,7 +3,7 @@ async function getResponce() {
     let content = await responce.text()
     console.log(content)
     content = JSON.parse(content)
-    content = content.splice(0, 9)
+    content = content.splice(0, 10)
     console.log(content)
 
     let key
