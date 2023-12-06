@@ -5,7 +5,7 @@
     "vendor_code": "111",
     "description": "Описание 1",
     "price": 100,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Кофе.jpg"
+    "img": "./images/Кофе.jpg"
   },
   {
     "id": "2",
@@ -13,7 +13,7 @@
     "vendor_code": "222",
     "description": "Описание 2",
     "price": 200,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Чай.jpg"
+    "img": "./images/Чай.jpg"
   },
   {
     "id": "3",
@@ -21,7 +21,7 @@
     "vendor_code": "333",
     "description": "Описание 3",
     "price": 300,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Торт.jpg"
+    "img": "./images/Торт.jpg"
   },
   {
     "id": "4",
@@ -29,16 +29,16 @@
     "vendor_code": "444e",
     "description": "Описание 4",
     "price": 400,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Печенье.jpg"
+    "img": "./images/Печенье.jpg"
   }
   ,
   {
     "id": "5",
     "title": "Товар 5",
     "vendor_code": "4445e",
-    "description": "Описание 6",
+    "description": "Описание 5",
     "price": 400,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Пуфик.jpg"
+    "img": "./images/Пуфик.jpg"
   },
   {
     "id": "6",
@@ -46,7 +46,7 @@
     "vendor_code": "4446e",
     "description": "Описание 6",
     "price": 400,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Стул.jpg"
+    "img": "./images/Стул.jpg"
   },
   {
     "id": "7",
@@ -54,7 +54,7 @@
     "vendor_code": "4447e",
     "description": "Описание 7",
     "price": 700,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Стол.jpg"
+    "img": "./images/Стол.jpg"
   },
   {
     "id": "8",
@@ -62,7 +62,7 @@
     "vendor_code": "4448e",
     "description": "Описание 8",
     "price": 800,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Кресло.jpg"
+    "img": "./Кресло.jpg"
   },
   {
     "id": "9",
@@ -70,7 +70,7 @@
     "vendor_code": "444e",
     "description": "Описание 9",
     "price": 400,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Медиатор.jpg"
+    "img": "./images/Медиатор.jpg"
   }
   ,
   {
@@ -79,7 +79,7 @@
     "vendor_code": "44410e",
     "description": "Описание 10",
     "price": 900,
-    "img": "https://github.com/Stependiaa/2023_Basics_of_WT/blob/main/bootstrapGitarnik/images/Каподастр.jpg"
+    "img": "./images/Каподастр.jpg"
   }
 
 ]
